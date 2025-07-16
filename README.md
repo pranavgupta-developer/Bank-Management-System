@@ -1,131 +1,98 @@
-# 🏦 Bank Management System
+# Bank Management System
 
-<p align="center">
-  A comprehensive Java-based Banking System with GUI that provides essential banking functionalities for both customers and bank staff.
-</p>
+A comprehensive Java-based Banking System with a graphical user interface that provides essential banking functionalities for both customers and bank staff.
 
----
+## Features
 
-## 📌 Features
+- **User Authentication**
+  - Secure login system
+  - New user registration
+  - Password protection
 
-### 🔐 User Authentication
+- **Account Management**
+  - View account details
+  - Check account balance
+  - Transaction history
+  - Account statements
 
-* Secure login system
-* New user registration
-* Password protection
+- **Card Services**
+  - Credit/Debit card management
+  - Card activation/deactivation
+  - View card details
+  - Card transaction history
 
-### 💼 Account Management
+- **Loan Management**
+  - Apply for different types of loans
+  - Loan status tracking
+  - EMI calculation
+  - Loan repayment schedules
 
-* View account details
-* Check account balance
-* Transaction history
-* Account statements
+- **Dashboard**
+  - User-friendly interface
+  - Quick access to all banking features
+  - Real-time account updates
 
-### 💳 Card Services
+## Technical Details
 
-* Credit/Debit card management
-* Card activation/deactivation
-* View card details
-* Card transaction history
+- **Programming Language**: Java
+- **Database**: MySQL (using `bank_management_system.sql`)
+- **Architecture**: Object-Oriented Design
+- **User Interface**: Java Swing/AWT
 
-### 🏦 Loan Management
-
-* Apply for different types of loans
-* Loan status tracking
-* EMI calculation
-* Loan repayment schedules
-
-### 📊 Dashboard
-
-* User-friendly interface
-* Quick access to all banking features
-* Real-time account updates
-
----
-
-## 🛠️ Technical Details
-
-| Feature          | Description                  |
-| ---------------- | ---------------------------- |
-| **Language**     | Java                         |
-| **UI Framework** | Java Swing / AWT             |
-| **Database**     | MySQL                        |
-| **Architecture** | Object-Oriented Design (OOP) |
-
----
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 Bank-Management-System/
 ├── Source Files
-│   ├── BankManagementSystem.java     # Main application
-│   ├── LoginPage.java                # Authentication
-│   ├── RegisterPage.java             # User registration
-│   ├── Dashboard.java                # Main interface
-│   ├── AccountPage.java              # Account operations
-│   ├── Cards.java                    # Card management
-│   ├── Loan.java                     # Loan processing
-│   └── DatabaseManager.java          # Database operations
+│   ├── BankManagementSystem.java (Main application)
+│   ├── LoginPage.java (Authentication)
+│   ├── RegisterPage.java (User registration)
+│   ├── Dashboard.java (Main interface)
+│   ├── AccountPage.java (Account operations)
+│   ├── Cards.java (Card management)
+│   ├── Loan.java (Loan processing)
+│   └── DatabaseManager.java (Database operations)
 ├── Database
-│   └── bank_management_system.sql    # SQL schema
+│   └── bank_management_system.sql
 └── Compiled Classes
-    └── Class/                        # .class files
+    └── Class/ (Contains all .class files)
 ```
 
----
+## Setup Instructions
 
-## 🚀 Setup Instructions
+1. **Prerequisites**
+   - Java Development Kit (JDK)
+   - MySQL Server
+   - MySQL Connector/J (JDBC driver)
 
-### 1️⃣ Prerequisites
+2. **Database Setup**
+   - Create a new MySQL database
+   - Import the `bank_management_system.sql` file
 
-* Java Development Kit (JDK)
-* MySQL Server
-* MySQL Connector/J (JDBC Driver)
+3. **Running the Application**
+   - Compile all Java files
+   - Run `BankManagementSystem.java`
 
-### 2️⃣ Database Setup
+## Security Features
 
-* Create a new MySQL database
-* Import the `bank_management_system.sql` file
+- Password encryption
+- Secure database connections
+- Session management
+- Input validation
 
-### 3️⃣ Run the Application
+## Contributing
 
-* Compile all `.java` files
-* Run `BankManagementSystem.java` from terminal or IDE
+Feel free to contribute to this project by:
+1. Forking the repository
+2. Creating your feature branch
+3. Committing your changes
+4. Pushing to the branch
+5. Creating a new Pull Request
 
----
+## Author
 
-## 🔐 Security Features
+- [pranavgupta-developer](https://github.com/pranavgupta-developer)
 
-* Password encryption
-* Secure database connections
-* Session management
-* Input validation
+## License
 
----
-
-## 🤝 Contributing
-
-1. 🍴 Fork the repository
-2. 🌿 Create your feature branch
-3. ✅ Commit your changes
-4. 🚀 Push to the branch
-5. 🔁 Create a new Pull Request
-
----
-
-## 👨‍💻 Author
-
-**[Pranav Gupta](https://github.com/pranavgupta-developer)**
-
----
-
-## 📄 License
-
-Licensed under the [MIT License](LICENSE)
-
----
-
-<p align="center">
-  ⭐️ Give this repo a star if you found it useful!
-</p>
+This project is licensed under the MIT License - see the LICENSE file for details.
